@@ -156,7 +156,7 @@ for train_idx, val_idx in kf.split(train, train["efs"]):
 | LightGBM | 0.68175 | 0.68561 |
 | XGBoost | 0.68012 | 0.68430 |
 | CatBoost | 0.67945 | 0.68392 |
-| Ensemble (LGBM + XGB + CAT) | **0.68561** | **0.68561** |
+| Ensemble (LGBM + XGB + CAT) | **0.68561** | **0.68175** |
 
 ---
 
